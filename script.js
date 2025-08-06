@@ -86,7 +86,7 @@ function checkWord(i) {
 }
 
 function updateScore() {
-  const emojis = ["🎉","⭐","🌟","🎈","🎁","🏆","🍭","🎊","🎵","🎲","🎯","🍰"];
+  const emojis = ["🎉","⭐","🌟","🎈","🎁","🏆","🍭","🎊","🎵","🎲","🎯","🍰","🚀","🥇"];
   document.getElementById('score').textContent = `Score: ${score} / ${words.length} ${score>0?emojis.slice(0,score).join(''):''}`;
 }
 
